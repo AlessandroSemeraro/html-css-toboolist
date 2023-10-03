@@ -11,17 +11,17 @@ body{
 }
 
 header{
-    height: 80px;
     background-color: white;
+    height: 100px;
 }
 
-.title-header{
-    padding-left: 15px;
-    padding-top: 15px;
+img{
+    height: 60px;
 }
 
-.title-logo{
-
+.container-header{
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .title-display{
@@ -32,4 +32,41 @@ header{
 .title-size{
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-main-position{
+    background-color: white;
+    height: 750px;
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 2%;
+    padding-left: 50px;
+}  
+
+.bar-add-buttons{
+    padding-top: 15px;
+    margin bottom: 5px; 
+}
+
+.button-size{
+    padding: 7px;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15%;
+}
+
+.button-task-color{
+    background-color: rgb(20, 141, 234);
+    color: white;
+    border: 0;
+}
+
+.button-section-color{
+    background-color: white;
+    color: lightgray;
+    border: none;
+    border-color: lightgray;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
