@@ -7,7 +7,6 @@
 
 body{
     background-color: rgb(239, 236, 236);
-    border: 3px magenta solid;
 }
 
 header{
@@ -34,15 +33,28 @@ img{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container-main-position{
+.container-main{
     background-color: white;
-    height: 750px;
     width: 800px;
     margin: auto;
-    margin-top: 40px;
-    border-radius: 2%;
+    border-radius: 0.5rem;
     padding-left: 50px;
+}
+
+.container-upper-main{
+    height: 50px;
+    margin-top: 40px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }  
+
+.container-middle-main{
+    height: 550px;
+    margin-top: 1px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+
+}
 
 .bar-add-buttons{
     padding-top: 15px;
@@ -69,4 +81,8 @@ img{
     border: none;
     border-color: lightgray;
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container-main{
+
 }
