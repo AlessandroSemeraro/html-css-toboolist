@@ -113,3 +113,31 @@ ul{
     color: red;
     border: 1px solid red;
 }
+
+.tag{
+    background-color: rgb(40, 105, 226);
+    color: white;
+    padding: 5px 4px;
+    border-radius: 25% ;
+    font-size: 7px;
+}
+
+.tag-violet{
+    background-color: rgb(232, 68, 232);
+}
+
+.tag-purple{
+    background-color: purple;
+}
+
+.tag-green{
+    background-color: rgb(1, 141, 80);
+}
+
+.tag-yellow{
+    background-color: rgb(139, 132, 42);
+}
+
+.tag-orange{
+    background-color: orange;
+}
