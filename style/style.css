@@ -93,10 +93,11 @@ img{
 }
 
 .circle-checkbox{
-    width: 15px;
-    height: 15px;
-    background-color: white;
-    border-radius: 2rem
+    width: 25px; 
+    height: 25px;
+    border: 1px solid lightgreen;
+    background: white;
+    border-radius: 50%;
 }
 
 .main-things{
@@ -106,4 +107,8 @@ img{
 .info-middle-main{
     font-size: 10px;
     
+}
+
+.checkmark{
+    color: lightgreen;
 }
