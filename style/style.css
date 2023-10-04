@@ -17,6 +17,10 @@ header{
     padding-top: 15px;
 }
 
+ul{
+    list-style: none;
+}
+
 .logo-title{
     size: 100%;
     vertical-align: bottom;
@@ -32,7 +36,7 @@ header{
 .container-main{
     background-color: white;
     width: 800px;
-    margin: auto;
+    margin: 0 auto;
     border-radius: 0.5rem;
     padding-left: 50px;
 }
@@ -46,11 +50,9 @@ header{
 
 .container-middle-main{
     height: 550px;
-    margin-top: 1px;
+    margin-top: 2px;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 .bar-add-buttons{
@@ -69,42 +71,45 @@ header{
 .button-task-color{
     background-color: rgb(20, 141, 234);
     color: white;
-    border: 0;
+    border: none;
 }
 
 .button-section-color{
     background-color: white;
-    color: lightgray;
+    color: rgb(218, 217, 217);
     border: none;
-    border-color: lightgray;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(218, 217, 217);
 }
 
-.subtitle-main{
+.section-main{
     padding-top: 30px;
 }
 
-.subtitle-size{
-    font-size: medium;   
+.font-thingstodo{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
-.circle-checkbox{
-    width: 25px; 
-    height: 25px;
-    border: 1px solid lightgreen;
-    background: white;
-    border-radius: 50%;
-}
-
-.main-things{
+.padding-li{
     padding-top: 10px;
-}   
-
-.info-middle-main{
-    font-size: 10px;
-    
 }
 
-.checkmark{
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: small;
+}
+
+.circle-green{
     color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.circle-red{
+    color: red;
+    border: 1px solid red;
 }
